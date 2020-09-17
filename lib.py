@@ -1,22 +1,14 @@
   
 def lb(n):
+        a = [45, 55, 60, 37, 100, 105, 220]
 
 
-nums = [45, 55, 60, 37, 100, 105, 220]
+        guess = int(input('Введите число на которое хотите поделить : '))
+        for x in a:
+            if x % guess == 0 :
+                    print('все ок')
+                    print(x / guess)
 
-
-guess = int(input('Введите число на которое хотите поделить : '))
-
-
-if n % guess == 0 :
-    print('все ок')
-    print(nums[n] / guess)
-
-elif n % guess <= 0 :
-    print('Нельзя поделить')
-    print(nums[n] / guess)
-
-else:
-    print('Nельзя поделить')
+            
 
 
