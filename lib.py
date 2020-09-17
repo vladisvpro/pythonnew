@@ -4,10 +4,13 @@ def lb(n):
 
 
         guess = int(input('Введите число на которое хотите поделить : '))
-        for x in a:
-            if x % guess == 0 :
+        for q in a:
+            if q % guess == 0 :
                     print('все ок')
-                    print(x / guess)
+                    print(q / guess)
+            else:
+                print('Оно с остатком(не записуеся)')
+                
 
             
 
