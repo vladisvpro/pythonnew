@@ -1,4 +1,5 @@
-def kaktakto(n):
+  
+def lb(n):
 
 
 nums = [45, 55, 60, 37, 100, 105, 220]
@@ -17,10 +18,5 @@ elif n % guess <= 0 :
 
 else:
     print('Nельзя поделить')
-
-
-
-
-
 
 
